@@ -4,7 +4,7 @@
     {
         static void Main(string[] args)
         {
-            Console.Write("Enter a number: ");
+            Console.Write("Enter a number:  ");
             Console.WriteLine($"{PowerOf2(int.Parse(Console.ReadLine()))}");
         }
         static string PowerOf2(int n)
